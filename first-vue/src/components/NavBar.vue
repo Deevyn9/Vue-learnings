@@ -4,6 +4,9 @@
             <h2>Vuebar</h2>
         </div>
 
+        <div class="menu">
+            menu
+        </div>
         <ul>
             <li v-for="link in Links" :key="link.id">
                 <a href={{link.link}}>{{ link.name }}</a>
